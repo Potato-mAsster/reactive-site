@@ -1,0 +1,74 @@
+.header-container{
+    background-color: #56697e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+.header-container a:hover{
+    color: #ffffff;
+}
+.home-container{
+    background-color: #ffffff;
+    padding: 50px 150px;
+    display: flex;
+}
+.home-logo img{
+    width: 100px;
+}
+.home-text h1{
+    margin: 10px 20px;
+}
+.home-text a{
+    margin: 10px 20px;
+    color: rgb(54, 54, 54);
+    font-size: 13px;
+}
+.home-text a:hover{
+    color: rgb(148, 14, 14);
+    text-decoration: none;
+}
+
+
+/* dark */
+
+.header-container-dark {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container-dark a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+.header-container-dark a:hover{
+    color: #4ba3a7;
+}
+.home-container-dark{
+    background-color: #213d3a;
+    padding: 50px 150px;
+    display: flex;
+}
+.home-logo img{
+    width: 100px;
+}
+.home-text-dark h1{
+    margin: 10px 20px;
+    color: #00f2ff;
+}
+.home-text-dark a{
+    margin: 10px 20px;
+    color: rgb(0, 248, 215);
+    font-size: 13px;
+}
+.home-text-dark a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
